@@ -1,0 +1,38 @@
+/* Custom styles for Aventura Travel */
+
+body {
+    padding-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600') center/cover no-repeat;
+    min-height: 80vh;
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.filter-btn.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.destino-card {
+    transition: opacity 0.3s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
